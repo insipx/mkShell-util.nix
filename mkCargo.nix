@@ -5,7 +5,6 @@
 , cargo-bloat
 , cargo-mutants
 , cargo-deny
-, cargo-audit
 , cargo-nextest
 , cargo-udeps
 , cargo-generate
@@ -21,7 +20,6 @@
       cargo-bloat
       cargo-mutants
       cargo-deny
-      cargo-audit
       cargo-nextest
       cargo-udeps
       cargo-generate
