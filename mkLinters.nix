@@ -6,7 +6,6 @@
 , yamlfmt
 , rubyPackages
 , dotenv-linter
-, gitlint
 , html-tidy
 , statix
 , deadnix
@@ -33,7 +32,6 @@
       # Linters
       # cbfmt
       dotenv-linter
-      gitlint
       html-tidy
       statix
       deadnix
