@@ -3,8 +3,6 @@
 , binaryen
 , wasm-pack
 , wabt
-, chromedriver
-, google-chrome
 , geckodriver
 , wasm-bindgen-cli
 , mkShell
@@ -18,8 +16,6 @@
       wasm-pack
       wasm-bindgen-cli
       wabt
-      chromedriver
-      google-chrome
       geckodriver
     ];
   } // extraInputs)
