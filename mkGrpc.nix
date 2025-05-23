@@ -13,7 +13,6 @@
       curl
       buf
       protobuf
-      protoc-gen-prost-crate
       protolint
     ];
   } // extraInputs)
