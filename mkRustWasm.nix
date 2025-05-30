@@ -1,10 +1,10 @@
 # make a shell with an environment for rust and wasm dev
 { twiggy
 , binaryen
-, wasm-pack
+  #, wasm-pack
 , wabt
 , geckodriver
-, wasm-bindgen-cli
+  # , wasm-bindgen-cli
 , mkShell
 , extraInputs ? { }
 , ...
@@ -13,8 +13,6 @@
     buildInputs = [
       twiggy
       binaryen
-      wasm-pack
-      wasm-bindgen-cli
       wabt
       geckodriver
     ];
